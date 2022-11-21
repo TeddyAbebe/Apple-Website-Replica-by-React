@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Header Style */
+.header-wrapper {
+  background-color: black;
+  padding: 9px;
+  font-size: 0.75em;
+  font-weight: 200;
+  color: #fff;
+}
+
+.header-wrapper a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-container {
+  width: 980px;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+.header-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrapper img {
+  width: 18px;
+}
+.header-links-wrapper li {
+  opacity: 0.8;
+  height: 25px;
+  padding: 2px 0 1px;
+  display: inline-block;
+}
+.header-links-wrapper li:hover {
+  opacity: 1;
+}
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+.header-links-wrapper li.logo-link {
+  padding: 12px 0 10px;
+}
+.header-links-wrapper li.search-link {
+  padding: 12px 0 10px;
+}
+.header-links-wrapper li.cart-link {
+  padding: 12px 0 10px;
+}
+
+/* Footer */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 15px;
+}
+.footer-container {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.footer-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+.footer-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-text-container a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  /* -webkit-box-flex: justify; */
+}
+.footer-wrapper ul {
+  padding-bottom: 20px;
+}
+.footer-wrapper ul li {
+  padding: 5px 0;
+  font-size: 12px;
+}
+.footer-links-wrapper a {
+  color: #515154;
+  text-decoration: none;
+}
+.footer-links-wrapper a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-llinks-terms li {
+  display: inline-block;
+  padding: 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-llinks-terms ul li :last-child {
+  border-right: 0px;
+}
+.footer-llinks-terms li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-llinks-terms li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag-wrapper {
+  vertical-align: middle;
+  display: inline-block;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Sections */
+
+/* 1st section */
+.first-section-wrapper {
+  background: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.model {
+  font-size: 0.85em;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description {
+  font-size: 2em;
+}
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper a:hover {
+  color: #000;
+}
+.links-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* 2nd section */
+.second-section-wrapper {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 65px 20px;
+}
+.title-wrapper {
+  font-weight: 600;
+  font-size: 56px;
+}
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.price-wrapper {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/* 3rd section */
+.third-section-wrapper {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+/* 4th section */
+.fourth-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.fourth-section-wrapper .left-wrapper {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+.left-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+}
+.fourth-section-wrapper .right-wrapper {
+  background-image: url("../images/home/apple-card.jpg");
+}
+.right-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.description-wrapper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+}
+/* 5th section */
+.fifth-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.fifth-section-wrapper .left-wrapper {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.fifth-section-wrapper .right-wrapper {
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+.tvshow-logo-wrapper {
+  padding: 180px 0 200px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+/* 6th section */
+.sixth-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.sixth-section-wrapper .left-wrapper {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+.sixth-section-wrapper .right-wrapper {
+  background-image: url("../images/home/new-ipad.jpg");
+}
+.product-title-small {
+  font-weight: 700;
+  font-size: 45px;
+}

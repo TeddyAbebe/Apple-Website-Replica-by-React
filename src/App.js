@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./Components/CSS/style.css";
+
+import Header from "./Apple/Header/Header";
+
+import Footer from "./Apple/Footer/Footer";
+
+import FirstSec from "./Apple/FirstSec/FirstSec";
+
+import SecondSec from "./Apple/SecondSec/SecondSec";
+
+import ThirdSec from "./Apple/ThirdSec/ThirdSec";
+
+import FourthSec from "./Apple/FourthSec/FourthSec";
+
+import FifthSec from "./Apple/FifthSec/FifthSec";
+
+import SixthSec from "./Apple/SixthSec/SixthSec";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+
+      <FirstSec></FirstSec>
+
+      <SecondSec></SecondSec>
+
+      <ThirdSec></ThirdSec>
+
+      <FourthSec></FourthSec>
+
+      <FifthSec></FifthSec>
+
+      <SixthSec></SixthSec>
+
+      <Footer></Footer>
     </div>
   );
 }
