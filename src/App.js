@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import "./Components/CSS/style.css";
 
@@ -18,26 +18,32 @@ import FifthSec from "./Apple/FifthSec/FifthSec";
 
 import SixthSec from "./Apple/SixthSec/SixthSec";
 
-function App() {
-  return (
-    <div>
-      <Header></Header>
+import Rating from "./Apple/Rating/Rating";
 
-      <FirstSec></FirstSec>
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header></Header>
 
-      <SecondSec></SecondSec>
+        <FirstSec></FirstSec>
 
-      <ThirdSec></ThirdSec>
+        <Rating></Rating>
 
-      <FourthSec></FourthSec>
+        <SecondSec></SecondSec>
 
-      <FifthSec></FifthSec>
+        <ThirdSec></ThirdSec>
 
-      <SixthSec></SixthSec>
+        <FourthSec></FourthSec>
 
-      <Footer></Footer>
-    </div>
-  );
+        <FifthSec></FifthSec>
+
+        <SixthSec></SixthSec>
+
+        <Footer></Footer>
+      </div>
+    );
+  }
 }
 
 export default App;

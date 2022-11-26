@@ -146,6 +146,38 @@ body {
 
 /* Sections */
 
+/* Rating Section */
+.rating-wrapper {
+  background-color: grey;
+  /* width: 50%; */
+  text-align: center;
+  margin: 0 150px;
+  padding: 70px 0;
+}
+.cont {
+  margin: 20px;
+}
+.positive {
+  background-color: Blue;
+  color: white;
+  border: none;
+  margin-right: 16px;
+  font-size: 18px;
+  padding: 5px;
+}
+.negative {
+  background-color: orange;
+  border: none;
+  font-size: 18px;
+  padding: 5px;
+}
+.rating-result {
+  background-color: whitesmoke;
+  padding: 0 auto;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
 /* 1st section */
 .first-section-wrapper {
   background: #fafafa;
